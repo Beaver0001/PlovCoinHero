@@ -4,8 +4,10 @@ import bgImage from "../assets/hero-meme-bg.png"
 function Hero() {
   return (
     <section
-      className="min-h-screen w-full bg-no-repeat bg-cover bg-center text-[#f9e3b5] flex flex-col items-center justify-center px-6 text-center"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      className="min-h-screen bg-cover bg-center flex flex-col items-center justify-end pb-20 px-4 text-center text-yellow-100"
+      style={{
+        backgroundImage: `url(${bgImage})`
+      }}
     >
       <h1 className="text-6xl md:text-8xl font-extrabold drop-shadow-lg mb-4 tracking-wide uppercase">
         PLOVCOIN
