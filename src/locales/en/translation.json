@@ -9,12 +9,12 @@
   },
   "tokenomics": {
     "title": "Tokenomics",
-    "airdrop": "Community & Airdrop",
-    "liquidity": "Liquidity",
-    "nft": "NFT & Participation",
-    "marketing": "Marketing",
-    "team": "Team (12mo lock)",
-    "reserve": "Reserve",
+    "airdrop": "Community & Airdrop (38%)",
+    "liquidity": "Liquidity (22%)",
+    "nft": "NFT & Participation (10%)",
+    "marketing": "Marketing (13%)",
+    "team": "Team (12mo lock) (10%)",
+    "reserve": "Reserve (7%)",
     "items": [
       { "label": "Total Supply", "value": "13,013,003,000 $PLOV" },
       { "label": "Airdrops", "value": "38%" },
@@ -25,25 +25,15 @@
       { "label": "Reserve", "value": "7%" }
     ]
   },
-"plovtax": {
-  "title": "Плов-налоги",
-  "description": "Каждая транзакция $PLOV поддерживает экосистему плова:",
-  "items": [
-    {
-      "label": "Plov Rocket",
-      "value": "1% — развитие и фесты"
-    },
-    {
-      "label": "PlovBurn",
-      "value": "1% — защита от дампов"
-    },
-    {
-      "label": "Plov Charity",
-      "value": "0.5% — плов для народа"
-    }
-  ]
-}
-},
+  "plovtax": {
+    "title": "Plov Tax",
+    "description": "Every $PLOV transaction supports the Plovverse economy:",
+    "items": [
+      { "label": "Plov Rocket", "value": "1% — growth & events" },
+      { "label": "PlovBurn", "value": "1% — anti-dump protection" },
+      { "label": "Plov Charity", "value": "0.5% — community food support" }
+    ]
+  },
   "roadmap": {
     "title": "PlovCoin — The Roadmap of Hype",
     "tagline": "Roadmap: From the earthly kazan to Martian plov!",
@@ -87,3 +77,4 @@
     }
   }
 }
+
