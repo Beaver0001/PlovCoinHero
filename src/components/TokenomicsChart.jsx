@@ -21,22 +21,34 @@ function TokenomicsChart() {
       <h2 className="text-4xl md:text-5xl font-bold mb-6">{t('tokenomics.title')}</h2>
 
       <div className="relative w-full max-w-md mx-auto">
-        {/* Фон казана */}
+
+        {/* Казан как фон */}
         <img
           src={kazanBg}
           alt="Plov Kazan"
           className="absolute top-0 left-0 w-full h-full object-contain opacity-30 pointer-events-none z-0"
         />
 
-        {/* Центр: Total Supply */}
-        <div className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 z-10">
-          <div className="text-yellow-200 text-center leading-tight drop-shadow-md">
-            <div className="text-xl font-bold">13,013,003,000</div>
-            <div className="text-base font-medium">$PLOV</div>
-          </div>
+        {/* Текст в центре */}
+        <div
+          style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            zIndex: 2,
+            pointerEvents: 'none',
+            textAlign: 'center',
+            color: '#facc15',
+            fontWeight: 'bold',
+            lineHeight: '1.2'
+          }}
+        >
+          <div style={{ fontSize: '18px' }}>13,013,003,000</div>
+          <div style={{ fontSize: '14px' }}>$PLOV</div>
         </div>
 
-        {/* График */}
+        {/* Круговая диаграмма */}
         <ResponsiveContainer width="100%" height={300}>
           <PieChart>
             <Pie
