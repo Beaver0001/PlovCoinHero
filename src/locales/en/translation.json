@@ -8,21 +8,28 @@
     "description": "PlovCoin is a meme-powered cryptocurrency inspired by the legendary Central Asian dish — plov. Built on Solana, fueled by flavor, governed by memes. It’s not just a coin. It’s a lifestyle. Join the Plov Army!"
   },
   "tokenomics": {
-  "title": "Tokenomics",
-  "airdrop": "Community & Airdrop",
-  "liquidity": "Liquidity",
-  "nft": "NFT & Participation",
-  "marketing": "Marketing",
-  "team": "Team (12mo lock)",
-  "reserve": "Reserve"
-}
-
+    "title": "Tokenomics",
+    "airdrop": "Community & Airdrop",
+    "liquidity": "Liquidity",
+    "nft": "NFT & Participation",
+    "marketing": "Marketing",
+    "team": "Team (12mo lock)",
+    "reserve": "Reserve",
+    "items": [
+      { "label": "Total Supply", "value": "13,013,003,000 $PLOV" },
+      { "label": "Airdrops", "value": "38%" },
+      { "label": "Liquidity", "value": "22%" },
+      { "label": "NFT & Participation", "value": "10%" },
+      { "label": "Marketing", "value": "13%" },
+      { "label": "Team (locked)", "value": "10%" },
+      { "label": "Reserve", "value": "7%" }
+    ]
   },
   "roadmap": {
-    "title": "🥘 PlovCoin — The Roadmap of Hype",
+    "title": "PlovCoin — The Roadmap of Hype",
     "tagline": "Roadmap: From the earthly kazan to Martian plov!",
     "2025": {
-      "title": "🔥 2025: Heating the Kazan",
+      "title": "2025: Heating the Kazan",
       "points": [
         "Whitepaper v1.5 done, hype is rising!",
         "Logo: Plov Rocket lights up the galaxy (Q3)",
@@ -37,7 +44,7 @@
       ]
     },
     "2026": {
-      "title": "🚀 2026: Orbit of Hype",
+      "title": "2026: Orbit of Hype",
       "points": [
         "Airdrop Waves 3–4: 7.5B $PLOV (Q1–Q2)",
         "PlovX: 5,000 NFTs (Q1)",
@@ -50,7 +57,7 @@
       ]
     },
     "2027": {
-      "title": "🌌 2027: Plov Across the Universe",
+      "title": "2027: Plov Across the Universe",
       "points": [
         "Multichain: Ethereum, BSC (Q1)",
         "Plovverse: full metaverse launch (Q2)",
