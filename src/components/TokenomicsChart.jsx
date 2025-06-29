@@ -1,7 +1,6 @@
 import React from 'react'
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts'
 import { useTranslation } from 'react-i18next'
-import kazanBg from '../assets/kazan-bg.png'
 
 const COLORS = ['#facc15', '#f59e0b', '#ea580c', '#dc2626', '#7c3aed', '#059669']
 
@@ -17,19 +16,11 @@ function TokenomicsChart() {
   ]
 
   return (
-    <section className="relative py-20 px-6 bg-[#1a0a05] text-yellow-100 text-center">
+    <section className="py-20 px-6 bg-[#1a0a05] text-yellow-100 text-center">
       <h2 className="text-4xl md:text-5xl font-bold mb-6">{t('tokenomics.title')}</h2>
 
       <div className="relative w-full max-w-md mx-auto">
-
-        {/* Казан как фон */}
-        <img
-          src={kazanBg}
-          alt="Plov Kazan"
-          className="absolute top-0 left-0 w-full h-full object-contain opacity-30 pointer-events-none z-0"
-        />
-
-        {/* Текст в центре */}
+        {/* Центр диаграммы */}
         <div
           style={{
             position: 'absolute',
@@ -48,7 +39,6 @@ function TokenomicsChart() {
           <div style={{ fontSize: '14px' }}>$PLOV</div>
         </div>
 
-        {/* Круговая диаграмма */}
         <ResponsiveContainer width="100%" height={300}>
           <PieChart>
             <Pie
@@ -82,4 +72,3 @@ function TokenomicsChart() {
 }
 
 export default TokenomicsChart
-
