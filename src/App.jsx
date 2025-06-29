@@ -11,7 +11,7 @@ function App() {
       <LanguageSwitcher />
       <HeroSection />
       <WhatIsPlov />
-      <TokenomicsBlock />
+      <TokenomicsBlock  />
       <RoadmapBlock />
     </div>
   )

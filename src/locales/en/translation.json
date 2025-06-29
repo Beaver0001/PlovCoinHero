@@ -3,6 +3,21 @@
     "title": "PlovCoin — The Hottest MemeCoin in the Galaxy",
     "subtitle": "From the kazan to the moon. And beyond."
   },
+  "what": {
+    "title": "What is PlovCoin?",
+    "description": "PlovCoin is a meme-powered cryptocurrency inspired by the legendary Central Asian dish — plov. Built on Solana, fueled by flavor, governed by memes. It’s not just a coin. It’s a lifestyle. Join the Plov Army!"
+  },
+  "tokenomics": {
+    "title": "Tokenomics",
+    "items": [
+      { "label": "Total Supply", "value": "13,013,003,000 $PLOV" },
+      { "label": "Airdrops", "value": "35%" },
+      { "label": "Liquidity", "value": "25%" },
+      { "label": "Team & Community", "value": "20%" },
+      { "label": "Marketing & Collabs", "value": "15%" },
+      { "label": "Reserves", "value": "5%" }
+    ]
+  },
   "roadmap": {
     "title": "🥘 PlovCoin — The Roadmap of Hype",
     "tagline": "Roadmap: From the earthly kazan to Martian plov!",
