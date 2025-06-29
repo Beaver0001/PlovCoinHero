@@ -1,0 +1,80 @@
+{
+  "hero": {
+    "title": "PlovCoin — The Hottest MemeCoin in the Galaxy",
+    "subtitle": "From the kazan to the moon. And beyond."
+  },
+  "what": {
+    "title": "What is PlovCoin?",
+    "description": "PlovCoin is a meme-powered cryptocurrency inspired by the legendary Central Asian dish — plov. Built on Solana, fueled by flavor, governed by memes. It’s not just a coin. It’s a lifestyle. Join the Plov Army!"
+  },
+  "tokenomics": {
+    "title": "Tokenomics",
+    "airdrop": "Community & Airdrop (38%)",
+    "liquidity": "Liquidity (22%)",
+    "nft": "NFT & Participation (10%)",
+    "marketing": "Marketing (13%)",
+    "team": "Team (12mo lock) (10%)",
+    "reserve": "Reserve (7%)",
+    "items": [
+      { "label": "Total Supply", "value": "13,013,003,000 $PLOV" },
+      { "label": "Airdrops", "value": "38%" },
+      { "label": "Liquidity", "value": "22%" },
+      { "label": "NFT & Participation", "value": "10%" },
+      { "label": "Marketing", "value": "13%" },
+      { "label": "Team (locked)", "value": "10%" },
+      { "label": "Reserve", "value": "7%" }
+    ]
+  },
+  "plovtax": {
+    "title": "Plov Tax",
+    "description": "Every $PLOV transaction supports the Plovverse economy:",
+    "items": [
+      { "label": "Plov Rocket", "value": "1% — growth & events" },
+      { "label": "PlovBurn", "value": "1% — anti-dump protection" },
+      { "label": "Plov Charity", "value": "0.5% — community food support" }
+    ]
+  },
+  "roadmap": {
+    "title": "PlovCoin — The Roadmap of Hype",
+    "tagline": "Roadmap: From the earthly kazan to Martian plov!",
+    "2025": {
+      "title": "2025: Heating the Kazan",
+      "points": [
+        "Whitepaper v1.5 done, hype is rising!",
+        "Logo: Plov Rocket lights up the galaxy (Q3)",
+        "Website: plovcoin.com — basecamp for the Plov Army (Q3)",
+        "Airdrop Waves 1–2: 7.5B $PLOV (Q3–Q4)",
+        "Listings: Raydium/Jupiter (Q4)",
+        "Kazan Genesis NFT: 10,000 assets (Q4)",
+        "PlovPlay v1.0: Web meme-game (Q4)",
+        "Merch: hats, aprons, mini-kazans (Q4)",
+        "#PLOVxDOGE: Meme coin collab (Q4)",
+        "Certik Audit: smart contract security (Q4)"
+      ]
+    },
+    "2026": {
+      "title": "2026: Orbit of Hype",
+      "points": [
+        "Airdrop Waves 3–4: 7.5B $PLOV (Q1–Q2)",
+        "PlovX: 5,000 NFTs (Q1)",
+        "PlovFest: Dushanbe, Tashkent (Q2–Q3)",
+        "Plov DAO: on-chain voting begins (Q3)",
+        "Binance listing (target Q3–Q4)",
+        "PlovMap: map of the Plovverse (Q3)",
+        "PlovPlay v2.0: mobile version (Q3)",
+        "Kazan Genesis NFT staking: +10% APY (Q1–Q2)"
+      ]
+    },
+    "2027": {
+      "title": "2027: Plov Across the Universe",
+      "points": [
+        "Multichain: Ethereum, BSC (Q1)",
+        "Plovverse: full metaverse launch (Q2)",
+        "PlovFest: global fest in Dubai (Q3)",
+        "PlovWallet: native $PLOV wallet (Q3)",
+        "PlovTube: content hub for Plov Army (Q4)"
+      ]
+    }
+  }
+}
+

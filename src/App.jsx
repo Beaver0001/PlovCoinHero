@@ -1,28 +1,22 @@
-import React from "react"
-import Hero from "./components/Hero"
-import AboutBlock from "./components/AboutBlock"
-import TokenomicsBlock from "./components/TokenomicsBlock"
-import RoadmapBlock from "./components/RoadmapBlock"
+import React from 'react'
+import LanguageSwitcher from './components/LanguageSwitcher'
+import HeroSection from './components/HeroSection'
+import WhatIsPlov from './components/WhatIsPlov'
+import TokenomicsChart from './components/TokenomicsChart'
+import PlovTaxBlock from './components/PlovTaxBlock'
+import RoadmapBlock from './components/RoadmapBlock'
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white">
-      <Hero />
-      <AboutBlock />
-      <TokenomicsBlock />
+    <div className="relative bg-[#1a0a05] min-h-screen text-white">
+      <LanguageSwitcher />
+      <HeroSection />
+      <WhatIsPlov />
+      <TokenomicsChart />
+      <PlovTaxBlock />
       <RoadmapBlock />
     </div>
   )
 }
-// rebuild trigger for Vercel
-// vite deploy trigger
-
 
 export default App
-// vite build trigger
-// deploy trigger
-
-// trigger Vercel rebuild
-
-
-
