@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import bgImage from '../assets/hero-meme-bg.png'
+import bgImage from '../assets/hero-meme-bg-v2.png'
 
 function HeroSection() {
   const { t } = useTranslation()
