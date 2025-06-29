@@ -1,5 +1,6 @@
 import React from 'react'
 import LanguageSwitcher from './components/LanguageSwitcher'
+import TokenomicsChart from './components/TokenomicsChart'
 import HeroSection from './components/HeroSection'
 import WhatIsPlov from './components/WhatIsPlov'
 import TokenomicsBlock from './components/TokenomicsBlock'
@@ -11,7 +12,8 @@ function App() {
       <LanguageSwitcher />
       <HeroSection />
       <WhatIsPlov />
-      <TokenomicsBlock  />
+<TokenomicsChart />
+<TokenomicsBlock /> {/* ← Можно оставить, если нужна таблица */}
       <RoadmapBlock />
     </div>
   )
