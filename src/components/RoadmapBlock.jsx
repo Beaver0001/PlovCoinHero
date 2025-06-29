@@ -35,3 +35,21 @@ function RoadmapBlock() {
             <li>PlovPlay v2.0: mobile version (Q3)</li>
             <li>Kazan Genesis NFT staking: +10% APY (Q1–Q2)</li>
           </ul>
+        </div>
+        <div>
+          <h3 className="text-2xl font-bold mb-2">🌌 2027: Plov Across the Universe</h3>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Multichain: Ethereum, BSC (Q1)</li>
+            <li>Plovverse: full metaverse launch (Q2)</li>
+            <li>PlovFest: global fest in Dubai (Q3)</li>
+            <li>PlovWallet: native $PLOV wallet (Q3)</li>
+            <li>PlovTube: content hub for Plov Army (Q4)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default RoadmapBlock
+
