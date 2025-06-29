@@ -1,24 +1,21 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
 import bgImage from '../assets/hero-meme-bg.png'
 
 function HeroSection() {
-  const { t } = useTranslation()
-
   return (
     <section
-      className="text-yellow-100 text-center px-6 flex flex-col items-center justify-center bg-no-repeat bg-cover bg-center"
+      className="text-yellow-100 text-center flex flex-col items-center justify-center px-6 bg-no-repeat bg-cover bg-center"
       style={{
         backgroundImage: `url(${bgImage})`,
         backgroundColor: '#1a0a05',
-        minHeight: '680px'
+        minHeight: '100vh'
       }}
     >
-      <h1 className="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg">
-        {t('hero.title')}
+      <h1 className="text-6xl md:text-7xl font-extrabold mb-4 drop-shadow-lg tracking-wide">
+        PLOVCOIN
       </h1>
-      <p className="text-xl md:text-2xl italic text-yellow-300 mb-10">
-        {t('hero.subtitle')}
+      <p className="text-xl md:text-2xl text-yellow-300 italic mb-10 tracking-wide">
+        $PLOV IS COOKING 🥄🔥
       </p>
 
       <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
@@ -26,7 +23,7 @@ function HeroSection() {
           href="#"
           className="inline-block bg-yellow-400 text-black font-semibold py-3 px-8 rounded-full shadow hover:bg-yellow-300 transition"
         >
-          🔥 Buy $PLOV (Coming Soon)
+          BUY $PLOV
         </a>
         <a
           href="#"
@@ -34,7 +31,7 @@ function HeroSection() {
           className="inline-block border border-yellow-400 text-yellow-200 font-semibold py-3 px-8 rounded-full opacity-50 cursor-not-allowed hover:bg-yellow-700 transition"
           title="Whitepaper coming soon"
         >
-          📄 Whitepaper (Soon)
+          WHITEPAPER
         </a>
       </div>
     </section>
