@@ -1,10 +1,4 @@
-# Исключаем тяжёлые и временные папки
 node_modules/
 dist/
 package-lock.json
-
-# Игнорируем лишние локальные файлы
-.env
-.vscode/
-.DS_Store
-*.log
+src/assets/hero-meme-bg.png
