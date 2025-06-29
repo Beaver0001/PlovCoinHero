@@ -1,4 +1,4 @@
-import React from 'react '
+import React from 'react'
 import LanguageSwitcher from './components/LanguageSwitcher'
 import HeroSection from './components/HeroSection'
 import WhatIsPlov from './components/WhatIsPlov'
