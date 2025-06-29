@@ -29,7 +29,7 @@ function HeroSection() {
         <a
           href="#"
           onClick={(e) => e.preventDefault()}
-          className="inline-block border border-yellow-400 text-yellow-200 font-semibold py-3 px-8 rounded-full opacity-50 cursor-not-allowed hover:bg-yellow-700 transition"
+          className="inline-block border border-yellow-400 text-yellow-200 font-semibold py-3 px-8 rounded-full hover:bg-yellow-400 hover:text-black transition"
           title="Whitepaper coming soon"
         >
           WHITEPAPER
