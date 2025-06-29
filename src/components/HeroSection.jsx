@@ -7,10 +7,11 @@ function HeroSection() {
 
   return (
     <section
-      className="text-yellow-100 text-center py-32 px-6 bg-no-repeat bg-cover bg-center"
+      className="text-yellow-100 text-center px-6 flex flex-col items-center justify-center bg-no-repeat bg-cover bg-center"
       style={{
         backgroundImage: `url(${bgImage})`,
-        backgroundColor: '#1a0a05'
+        backgroundColor: '#1a0a05',
+        minHeight: '680px'
       }}
     >
       <h1 className="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg">
