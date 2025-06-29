@@ -1,16 +1,18 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import bgImage from '../assets/hero-meme-bg.png' // оригинальный фон
+import bgImage from '../assets/hero-meme-bg.png'
 
 function HeroSection() {
   const { t } = useTranslation()
 
   return (
     <section
-      className="text-yellow-100 text-center py-28 px-6 bg-cover bg-center bg-no-repeat"
+      className="bg-[#1a0a05] text-yellow-100 text-center py-28 px-6"
       style={{
         backgroundImage: `url(${bgImage})`,
-        backgroundColor: '#1a0a05'
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: '100% auto',
+        backgroundPosition: 'center top'
       }}
     >
       <h1 className="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg">
