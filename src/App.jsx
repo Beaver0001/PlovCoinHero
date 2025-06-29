@@ -1,24 +1,24 @@
-import React from 'react'
+import React from 'react '
 import LanguageSwitcher from './components/LanguageSwitcher'
 import HeroSection from './components/HeroSection'
+import WhatIsPlov from './components/WhatIsPlov'
+import TokenomicsBlock from './components/TokenomicsBlock'
 import RoadmapBlock from './components/RoadmapBlock'
 
 function App() {
   return (
     <div className="relative bg-[#1a0a05] min-h-screen text-white">
-      {/* Переключатель языка в углу */}
       <LanguageSwitcher />
-
-      {/* Главные блоки */}
       <HeroSection />
+      <WhatIsPlov />
+      <TokenomicsBlock />
       <RoadmapBlock />
-
-      {/* Можно добавить Footer и другие блоки */}
     </div>
   )
 }
 
 export default App
-
+// preview trigger
+// second trigger
 
 
