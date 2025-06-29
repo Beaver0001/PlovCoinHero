@@ -42,6 +42,13 @@ function TokenomicsChart() {
           </PieChart>
         </ResponsiveContainer>
       </div>
+
+      {/* Блок с деталями */}
+      <div className="mt-8 max-w-xl mx-auto text-yellow-200 text-sm md:text-base space-y-1">
+        <div><strong>Total Supply:</strong> 13 013 003 000 $PLOV</div>
+        <div><strong>Mint Address:</strong> Edo7P6PigSTgKB1Nn3bfeTuadudrefgkSdCT5jc6jWTh</div>
+        <div><strong>Mint authority:</strong> отключена для доверия — казан запечатан!</div>
+      </div>
     </section>
   )
 }
