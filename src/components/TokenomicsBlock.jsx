@@ -5,6 +5,12 @@ function TokenomicsBlock() {
   const { t } = useTranslation()
   const tokenomics = t('tokenomics.items', { returnObjects: true })
 
+  // 🔒 Защита: если перевод не массив — не ломай сайт
+  if (!Array.isArray(tokenomics)) {
+    console.error('❌ tokenomics.items is not an array:', tokenomics)
+    return null
+  }
+
   return (
     <section className="bg-[#1a0a05] text-yellow-100 py-20 px-6 text-center">
       <h2 className="text-4xl md:text-5xl font-bold mb-10">
