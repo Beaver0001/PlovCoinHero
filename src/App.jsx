@@ -1,8 +1,8 @@
 import React from 'react'
 import LanguageSwitcher from './components/LanguageSwitcher'
-import TokenomicsChart from './components/TokenomicsChart'
 import HeroSection from './components/HeroSection'
 import WhatIsPlov from './components/WhatIsPlov'
+import TokenomicsChart from './components/TokenomicsChart'
 import TokenomicsBlock from './components/TokenomicsBlock'
 import RoadmapBlock from './components/RoadmapBlock'
 
@@ -12,15 +12,14 @@ function App() {
       <LanguageSwitcher />
       <HeroSection />
       <WhatIsPlov />
-<TokenomicsChart />
-<TokenomicsBlock /> {/* ← Можно оставить, если нужна таблица */}
+      <TokenomicsChart />
+      <TokenomicsBlock />
       <RoadmapBlock />
     </div>
   )
 }
 
 export default App
-// preview trigger
-// second trigger
+
 
 
