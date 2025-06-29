@@ -20,12 +20,20 @@ function HeroSection() {
         {t('hero.subtitle')}
       </p>
 
-      <div>
+      <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
         <a
           href="#"
           className="inline-block bg-yellow-400 text-black font-semibold py-3 px-8 rounded-full shadow hover:bg-yellow-300 transition"
         >
           🔥 Buy $PLOV (Coming Soon)
+        </a>
+        <a
+          href="#"
+          onClick={(e) => e.preventDefault()}
+          className="inline-block border border-yellow-400 text-yellow-200 font-semibold py-3 px-8 rounded-full opacity-50 cursor-not-allowed hover:bg-yellow-700 transition"
+          title="Whitepaper coming soon"
+        >
+          📄 Whitepaper (Soon)
         </a>
       </div>
     </section>
