@@ -24,6 +24,26 @@
       { "label": "Команда (лок 12 мес)", "value": "10%" },
       { "label": "Резерв", "value": "7%" }
     ]
+},
+"plovtax": {
+  "title": "Plov Tax",
+  "description": "Every $PLOV transaction supports the Plovverse economy:",
+  "items": [
+    {
+      "label": "Plov Rocket",
+      "value": "1% — growth & events"
+    },
+    {
+      "label": "PlovBurn",
+      "value": "1% — anti-dump protection"
+    },
+    {
+      "label": "Plov Charity",
+      "value": "0.5% — community food support"
+    }
+  ]
+}
+
   },
   "roadmap": {
     "title": "PlovCoin — Роадмап хайпа",

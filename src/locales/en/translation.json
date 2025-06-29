@@ -25,6 +25,25 @@
       { "label": "Reserve", "value": "7%" }
     ]
   },
+"plovtax": {
+  "title": "Плов-налоги",
+  "description": "Каждая транзакция $PLOV поддерживает экосистему плова:",
+  "items": [
+    {
+      "label": "Plov Rocket",
+      "value": "1% — развитие и фесты"
+    },
+    {
+      "label": "PlovBurn",
+      "value": "1% — защита от дампов"
+    },
+    {
+      "label": "Plov Charity",
+      "value": "0.5% — плов для народа"
+    }
+  ]
+}
+},
   "roadmap": {
     "title": "PlovCoin — The Roadmap of Hype",
     "tagline": "Roadmap: From the earthly kazan to Martian plov!",
